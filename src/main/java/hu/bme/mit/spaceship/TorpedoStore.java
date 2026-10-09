@@ -14,6 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
+  //globalized random to ensure that its really a random number and to avoid unnecessary new Random objects
   private static final Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos){
